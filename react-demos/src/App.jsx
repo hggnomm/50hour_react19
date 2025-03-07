@@ -1,7 +1,12 @@
 import React from "react";
+import CopyInput from "./components/CopyInput";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <CopyInput />
+    </div>
+  );
 };
 
 export default App;
